@@ -1,0 +1,55 @@
+.parent-container {
+    position: relative;
+  }
+  
+  .carousel-section {
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .box {
+    cursor: pointer;
+    width: calc(25% - 20px);
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 100px;
+    z-index: 10;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box h3 {
+    margin-top: 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .box {
+      width: 100%;
+    }
+  }
+
+  .drone-image {
+    height: 261px;
+  }
+  
